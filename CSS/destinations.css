@@ -6,6 +6,7 @@
     width: 100vw;
     height: 100vh;
     position: relative;
+    margin-top: 5rem;
 }
 
 .destinations__title {
@@ -14,6 +15,28 @@
     top: 1rem;
     left: 1em;
     font-size: 5em;
+}
+
+/* Greece background image */
+.backgroundimg__greece {
+    background-image: url(../Assets/Images/greece.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    margin-top: 5rem;
+}
+
+/* Iceland background image */
+.backgroundimg__iceland {
+    background-image: url(../Assets/Images/iceland.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    margin-top: 5rem;
 }
 
 /* Styling for itinerary activites*/
@@ -32,10 +55,16 @@
     margin-left: -7em;
     border-radius: 5px;
     text-align: center;
+    height: 20%;
 }
 
 .activities__list--color {
     background-color: #FEFAF5;
     padding: 1rem 4.7rem 1.5rem 4.7rem;
-    font-weight: 600px;
+}
+
+.activities__section--header {
+    border-bottom: 1px solid;
+    padding-left: 4.7rem;
+    padding-right: 4.7rem;
 }
