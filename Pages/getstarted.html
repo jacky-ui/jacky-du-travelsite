@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+    <html lang="en">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel ="stylesheet" type ="text/css" href ="../CSS/global.css">
+            <link rel="stylesheet" type ="text/css" href ="../CSS/getstarted.css">
+            <title>Travel Site - Get Started</title>
+        </head>
+        <body>
+            <header>
+                <!-- Navigation -->
+                <div class ="navigation">
+                    <h3>
+                        <a class ="navigation__wordmark" href ="../index.html">Travel Site</a>
+                    </h3>
+                    <nav>
+                        <div>
+                            <ul class ="navigation__lists">
+                                <li>
+                                    <a class ="navigation__lists--style" href ="../index.html">Home</a>
+                                </li>
+                                <li>
+                                    <a class ="navigation__lists--style" href ="./hawaii.html">Hawaii</a>
+                                </li>
+                                <li>
+                                    <a class ="navigation__lists--style" href ="./iceland.html">Iceland</a>
+                                </li>
+                                <li>
+                                    <a class ="navigation__lists--style" href ="./greece.html">Greece</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            
+            <!-- Get started sign form -->
+            <main>
+                <section>
+                    <div class ="background">
+                        <div class ="background__section">
+                            <a href ="../Pages/hawaii.html">
+                                <img class ="background__img--size" src ="../Assets/Images/hawaii.jpg" alt="hawaii">
+                            </a>
+                        </div>
+
+                        <div class ="background__section">
+                            <a href ="../Pages/iceland.html">
+                                <img class ="background__img--size" src ="../Assets/Images/iceland.jpg" alt="iceland">
+                            </a>
+                        </div>
+
+                        <div class ="background__section">
+                            <a href="../Pages/greece.html">
+                                <img class ="background__img--size" src ="../Assets/Images/greece.jpg" alt="greece">
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+                <article>
+                    <div class ="form">
+                        <h1 class ="form__heading">Get Started</h1>
+                        <form id ="form__sections" class ="form__sections">
+                            <section class ="form__section">
+                                <label for ="location" id ="dropdown-label">Select your destination</label>
+                                <select name="location__dojo" id="dropdown" class ="form__inputs">
+                                    <option value = "hawaii">Hawaii</option>
+                                    <option value = "iceland">Iceland</option>
+                                    <option value = "greece">Greece</option>
+                                </select>
+                            </section>
+
+                            <section class ="form__section">
+                                <label for ="duration__from">From</label>
+                                <input type ="date" id ="from" name ="from" required>
+                            </section>
+
+                            <section class ="form__section">
+                                <label for ="duration__to">To</label>
+                                <input type ="date" id ="to" name ="to" required>
+                            </section>
+
+                            <section class ="form__section">
+                                <label for = "name" id = "name-label">Name</label>
+                                <input type = "text" required placeholder="Enter your name" id = "name" class = "form-inputs">
+                            </section>
+
+                            <section class ="form__section">
+                                <label for ="email-address" id = "email-label">Email Address</label>
+                                <input type = "email" required placeholder = "Email Address" id = "email" class = "form-inputs"> 
+                            </section>
+
+                            <section class ="form__section">
+                                <h3>How did you hear about us?</h3>
+                            <label for = "friends-family">
+                                <input type = "checkbox" id = "friends-family" value = "friends-family" name = "hear-about-us">Friends and family?
+                            </label>
+                            <label for = "social-media">
+                                <input type = "checkbox" id = "social-media" value = "social-media" name = "hear-about-us">Social Media/News?
+                            </label>
+                            <label for = "other">
+                                <input type = "checkbox" id = "other" value = "other" name = "hear-about-us">Other?
+                            </label>
+                            </section>
+
+                            <button class ="button__submit" type = "submit" id = "submit">Submit</button>
+                        </form>
+                    </div>
+                </article>
+            </main>
+
+            <!-- Footer with company address and hours -->
+            <footer>
+                <div class ="address__container">
+                    <div class ="address__sections">
+                        <h3>Contact</h3>
+                        <p class ="address__subhead--color">EMAIL</p>
+                        <p>info@travelsite.com</p>
+                    </div>
+
+                    <div class ="address__sections">
+                        <h3>Hours</h3>
+                        <div class ="address__hours">
+                            <div class ="address__hours--spacing">
+                                <p class ="address__subhead--color">MONDAY - FRIDAY:</p>
+                                <p class ="address-info__time">9:00 AM - 5:00 PM</p>
+                            </div>
+                            <div class ="address__hours--spacing">
+                                <p class ="address__subhead--color">SATURDAY:</p>
+                                <p class ="address-info__time">10:00 AM - 4:00 PM</p>
+                            </div>
+                            <div class ="address__hours--spacing">
+                                <p class ="address__subhead--color">SUNDAY:</p>
+                                <p class ="address-info__time">Closed</p>
+                            </div>
+                        </div>
+                    </div>
+
+                        <div class ="address__sections">
+                            <h3>Social</h3>
+                            <div class ="address__social">
+                                <a href="https://www.instagram.com/">
+                                    <img class ="address__social--imgsize" src ="../Assets/Icons/icon-instagram.png" alt ="instagram page">
+                                </a>
+                                <a href="https://www.facebook.com/">
+                                    <img class ="address__social--facebook" src ="../Assets/Icons/icon-facebook.png" alt ="facebook page">
+                                </a>
+                                <a href="https://twitter.com/">
+                                    <img class ="address__social--imgsize" src ="../Assets/Icons/icon-twitter.png" alt ="twitter page">
+                                </a>
+                            </div>
+                        </div>
+                </div>
+            </footer>
+        </body>
+    </html>

@@ -1,0 +1,43 @@
+/* Background image */
+.background {
+    margin-top: 5rem;
+    display: flex;
+    position: relative;
+}
+
+.background__img--size {
+    width: 32.7vw;
+    height: 100vh;
+}
+
+/* Form Styling */
+
+.form {
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom: 2em;
+    left: 22em;
+    right: 22em;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+.form__sections {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__section {
+    margin: 1rem;
+}
+
+/* Button Styling */
+.button__submit {
+    background-color: #DB7A4E;
+    color: white;
+    border-radius: 2rem;
+    padding: 0.5rem 1.5rem;
+    border-color: #DB7A4E;
+    width: fit-content;
+    margin-left: 1rem;
+}
