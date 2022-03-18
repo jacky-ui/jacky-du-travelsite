@@ -45,6 +45,7 @@
     justify-content: space-evenly;
     position: relative;
     top: 17rem;
+    
 }
 
 .activities__section {
@@ -57,9 +58,15 @@
     text-align: center;
 }
 
+.activities__list {
+    padding-left: 0;
+}
+
 .activities__list--color {
     background-color: #FEFAF5;
     padding: 1rem 4.7rem 1.5rem 4.7rem;
+    margin-bottom: 1rem;
+    list-style: none;
 }
 
 .activities__header {
